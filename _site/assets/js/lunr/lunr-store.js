@@ -10,4 +10,10 @@ var store = [{
         "tags": ["PH Customs","exploratory data analysis","python"],
         "url": "/projects/ph-grab-ml",
         "teaser": null
+      },{
+        "title": "Understanding Philippines’ Trading Allies: Can China hold the Philippine Economy Hostage?",
+        "excerpt":"This is our first mini-project for our Data Mining and Wrangling class. This was created alongside Kevin Delgado, Tsoy Hipolito, Julia Las, and Leonard Limkaichong. We were tasked to wrangle numerous MS Excel files and perform exploratory data analysis. Executive Summary Globalization is one of the means so that a...","categories": ["projects"],
+        "tags": ["PH Customs","exploratory data analysis","python"],
+        "url": "/projects/ph-customs-eda",
+        "teaser": null
       }]
