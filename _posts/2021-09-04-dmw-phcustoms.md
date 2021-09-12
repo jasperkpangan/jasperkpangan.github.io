@@ -21,7 +21,7 @@ Globalization is one of the means so that a country can achieve a certain level 
 In this study, import data from the Bureau of Customs covering President Rodrigo Duterte’s term from July 2016 to April 2020 (which was the latest data at the time of writing) was explored. This is not necessarily an assessment of his trade policies but was only chosen to maintain homogeneity in relation to the type of administration.
 
 <!-- <img src = "{{ site.url }}{{ site.baseurl }}\assets\images\project\import-export-network.png"> -->
-<img src = "\assets\images\project\import-export-network.png" width = "800" height = "800">
+<img src = "\assets\images\project\import-export-network.png" width = "800" height = "200">
 
 <p style="font-size:12px;font-style:default;"><b>Figure 1. Importation Network Reach of the Philippines..</b><br>In the current administration alone, above 200 countries across all continents have exported goods in the Philippines. Given this number, it appears that the Philippines is very connected with the world trade-wise.</p>
 

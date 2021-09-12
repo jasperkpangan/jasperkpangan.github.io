@@ -12,12 +12,12 @@ show_date: "true"
 ---
 *This is our final project for our Data Visualization and Storytelling class. This was created alongside [Jelo Delariarte](https://www.linkedin.com/in/jelodelariarte/), [Sasha Garcia](https://www.linkedin.com/in/sharmaineselenegarcia/), [Leo Lorenzo](https://www.linkedin.com/in/leolorenzoii/), and [Hezi Rance](https://www.linkedin.com/in/hezirance/). We were tasked to present a data visualization using any dataset of our choice.*
 
-# Executive Summary
+## Executive Summary
 Filipinos have established a global community in an increasingly globalized world.  The numbers and demographics show that young Filipinas are most likely to be found studying in the USA, Canada, and Japan. However, these also show that they are not alone, as they bring with them their families to these new lands, bringing their heritage beyond the country's borders. These families then continue to build on this global community, spread the familial culture, and enable how the World Meets Pinoys.
 
 <img src = '\assets\images\project\LT10FinalViz.png'>
 
-# Recommendation
+## Recommendation
 For policy makers, we recommend to: 
 - strengthen the Balikbayan Program to attract more Filipino emigrants to return to the Philippines
 
