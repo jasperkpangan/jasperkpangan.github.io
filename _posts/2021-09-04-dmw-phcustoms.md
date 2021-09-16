@@ -10,10 +10,9 @@ category: "projects"
 mathjax: "true"
 show_date: "true"
 ---
-*This is our first mini-project for our Data Mining and Wrangling class. This was created alongside [Kevin Delgado](https://www.linkedin.com/in/kevynndelgado/), [Tsoy Hipolito](https://www.linkedin.com/in/pdanielhipolito/), [Julia Las](https://www.linkedin.com/in/julialas/), and [Leonard Limkaichong](https://www.linkedin.com/in/leonard-limkaichong-31711611a/). We were tasked to wrangle numerous `MS Excel` files and perform exploratory data analysis.*
-
 [![](https://img.shields.io/badge/Jupyter-View_Notebook-F37626?logo=jupyter)](https://github.com/jasperkpangan/dmw-eda-ph-customs/blob/main/Technical%20Report.ipynb)       [![](https://img.shields.io/badge/Github-View_HTML-181717?logo=github)](https://github.com/jasperkpangan/dmw-eda-ph-customs/blob/main/Technical%20Report.html)
 
+*This is our first mini-project for our Data Mining and Wrangling class. This was created alongside [Kevin Delgado](https://www.linkedin.com/in/kevynndelgado/), [Tsoy Hipolito](https://www.linkedin.com/in/pdanielhipolito/), [Julia Las](https://www.linkedin.com/in/julialas/), and [Leonard Limkaichong](https://www.linkedin.com/in/leonard-limkaichong-31711611a/). We were tasked to wrangle numerous `MS Excel` files and perform exploratory data analysis.*
 
 ## Executive Summary
 Globalization is one of the means so that a country can achieve a certain level of sustainability especially that not all resources (products or goods) are available or even accessible within its jurisdiction. Smaller nations tend to be trade-dependent compared to larger ones. Being a developing country, the Philippines relies heavily on imports for certain goods and products. By looking into the imports data of the Bureau of Customs, we now have an overview of Philippine importation data, and **what types of goods are mostly imported**. This study aims to understand the **extent of trade the Philippines conducts with other countries and to what extent does China dominates**.
@@ -23,7 +22,7 @@ In this study, import data from the Bureau of Customs covering President Rodrigo
 <!-- <img src = "{{ site.url }}{{ site.baseurl }}\assets\images\project\import-export-network.png"> -->
 <img src = "\assets\images\project\import-export-network.png" width = "800" height = "200">
 
-<p style="font-size:12px;font-style:default;"><b>Figure 1. Importation Network Reach of the Philippines..</b><br>In the current administration alone, above 200 countries across all continents have exported goods in the Philippines. Given this number, it appears that the Philippines is very connected with the world trade-wise.</p>
+<p style="font-size:12px;font-style:default;"><b>Figure 1. Importation Network Reach of the Philippines.</b><br>In the current administration alone, above 200 countries across all continents have exported goods in the Philippines. Given this number, it appears that the Philippines is very connected with the world trade-wise.</p>
 
 During this period, the Philippines has traded with over 200 countries, with the highest in terms of value of goods being China, Japan, South Korea and the United States of America. Machinery and electrical products are the most imported items where 41% of which comes from just China and Japan. Across different categories, China remains to be in the top 5 while obtaining the top position in 11 out of the 15 product categories. 
 
