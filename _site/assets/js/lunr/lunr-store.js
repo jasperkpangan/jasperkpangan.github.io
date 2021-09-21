@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Cancelledt Culture: Predicting Grab Taxi Booking Status",
-        "excerpt":"This is my final project for our Machine Learning class. We were tasked to create a machine learning model using any dataset of our choice. Motivation Now that most of us are working from home, one thing we surely don’t miss is commuting. But prior to pandemic, most of us...","categories": ["projects"],
+        "excerpt":"This is my final project for our Machine Learning class. We were tasked to create a machine learning model using any dataset of our choice. Motivation Now that most of us are working from home, one thing we surely don’t miss is commuting. Prior to the pandemic, most of us...","categories": ["projects"],
         "tags": ["Grab taxi","machine learning","classification","light gbm","python"],
         "url": "/projects/ph-grab-ml",
         "teaser": null

@@ -15,7 +15,8 @@ show_date: "true"
 *This is my final project for our Machine Learning class. We were tasked to create a machine learning model using any dataset of our choice.*
 
 ## Motivation
-Now that most of us are working from home, one thing we surely don't miss is **commuting**. But prior to pandemic, most of us have experienced the *carmageddon* along EDSA. Traffic is one of the biggest crisis in our country that several administrations failed to solve. One of the major causes of the heavy traffic in our country is the poor public transportation system [[1]](https://philkotse.com/safe-driving/top-5-major-causes-of-traffic-in-the-philippines-5736). With the constant breakdown of the country's main transit system [[2]](https://rappler.com/newsbreak/iq/things-to-know-about-metro-manila-public-transport-system) and lack of options due to insanely long queue and madness experienced when using public transportation, many Filipinos resort to alternatives. In particular, ride sharing services has grown exponentially during the last decade, specifically Grab. 
+Now that most of us are working from home, one thing we surely don't miss is **commuting**. Prior to the pandemic,
+most of us have experienced the *carmageddon* along EDSA. Traffic is one of the biggest crisis in our country that several administrations failed to solve. One of the major causes of the heavy traffic in our country is the poor public transportation system [[1]](https://philkotse.com/safe-driving/top-5-major-causes-of-traffic-in-the-philippines-5736). With the constant breakdown of the country's main transit system [[2]](https://rappler.com/newsbreak/iq/things-to-know-about-metro-manila-public-transport-system) and lack of options due to insanely long queue and madness experienced when using public transportation, many Filipinos resort to alternatives. In particular, ride sharing services has grown exponentially during the last decade, specifically Grab. 
 
 In 2018 alone, Grab users traveled the cumulative total of 920 million kilometers [[3]](https://www.carguide.ph/2019/01/7-facts-and-figures-about-grab-in-2018.html) with over 35,000 partner drivers. Grabe reported to have cut down travel time by 70%, but still customers demand for better service [[4]](https://www.techinasia.com/internet-flooded-complaints-grab-scrutinize-app). Since Grab receives around 600,000 bookings per day, [[5]](https://rappler.com/business/grab-philippines-drivers-not-enough-passenger-bookings) they experience an undersupply of vehicles to meet the passenger demand. Hence, it is a common frustration among Filipinos booking for Grab to experience the following: (1) waiting for a long time to book a ride to no avail, (2) costly ride, and (3) drivers cancelling their ride.
 
@@ -28,17 +29,21 @@ Predicting the status of a grab booking will be beneficial to different stakehol
 - __Grab and its partner drivers__: Grab can use this system to understand the factors why its partner drivers cancel their allocated grab booking. Through this, they can better implement their demand capacity planning.
 - __Government__: By understanding location hotspots, local government units can improve public transportation by pushing initiatives such as the P2P bus-service.
 
-## About the data
+## Methodology
+
+
+## Exploring the Grab Dataset
 
 The dataset was downloaded and extracted from [Tableau Public](https://public.tableau.com/profile/daryl6537?fbclid=IwAR0Ixd8gKuYh37iyNXGSzzWuHCCa6jU_ZcX1Pv5Yw5cAwvujYGC5oexzIkM#!/vizhome/Tabley/Page0).
 Prior to filtering and data processing, the Grab dataset is composed of `197,188` rows and `21` columns. A row corresponds to a booking information for Grab Taxi.
 
-### Target Variable
-
+The target variable defined in this study is wheter a Grab booking was allocated (regardless if it's cancelled by the driver or passenger) and unallocated. Here we inspect the distribution of each of the class in our dataset. This can provide us information on the appropriate metric and methodology to implement to arrive with a relevant machine learning model.
 <!-- <img src = "{{ site.url }}{{ site.baseurl }}\assets\images\project\import-export-network.png"> -->
 <img src = "\assets\images\project\grab-target.png" height = "200">
 
-<p style="font-size:12px;font-style:default;"><b>Figure 1. Percentage of Allocation and Non-Allocation of Grab Taxi Bookings</b><br>Although the target variable is not heavily imbalanced, it is still important to consider other metrics aside from accuracy when evaluating the machine learning model.</p>
+<p style="font-size:12px;font-style:default;"><b>Figure 1. Percentage of Allocation and Non-Allocation of Grab Taxi Bookings</b><br>Although the target variable is not heavily imbalanced, it is still important to consider other metrics aside from accuracy such as recall and precision when evaluating the machine learning model.</p>
+
+Both recall and precision will be relevant to Grab as it will help in capacity planning. These metrics will also be relevant to the users so they can better anticipate and plan their day ahead.
 
 <img src = "\assets\images\project\grab-calmap.png" height = "200">
 
