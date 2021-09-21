@@ -37,7 +37,7 @@ Predicting the status of a grab booking will be beneficial to different stakehol
 The dataset was downloaded and extracted from [Tableau Public](https://public.tableau.com/profile/daryl6537?fbclid=IwAR0Ixd8gKuYh37iyNXGSzzWuHCCa6jU_ZcX1Pv5Yw5cAwvujYGC5oexzIkM#!/vizhome/Tabley/Page0).
 Prior to filtering and data processing, the Grab dataset is composed of `197,188` rows and `21` columns. A row corresponds to a booking information for Grab Taxi.
 
-The target variable defined in this study is wheter a Grab booking was allocated (regardless if it's cancelled by the driver or passenger) and unallocated. Here we inspect the distribution of each of the class in our dataset. This can provide us information on the appropriate metric and methodology to implement to arrive with a relevant machine learning model.
+The target variable defined in this study is whether a Grab booking was allocated (regardless if it's cancelled by the driver or passenger) or unallocated. Here we inspect the distribution of each class in our dataset. This can provide us information on the appropriate metric and methodology to implement to arrive with a relevant machine learning model.
 <!-- <img src = "{{ site.url }}{{ site.baseurl }}\assets\images\project\import-export-network.png"> -->
 <img src = "\assets\images\project\grab-target.png" height = "200">
 
