@@ -1,6 +1,6 @@
 ---
 classes: wide
-title: "Cancelledt Culture: Predicting Grab Taxi Booking Status"
+title: "Cancel Culture: Predicting Grab Taxi Booking Status"
 date: 2021-09-16
 last_modified_at: 2021-09-16
 permalink: /projects/ph-grab-ml
