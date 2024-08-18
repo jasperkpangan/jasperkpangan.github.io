@@ -11,9 +11,15 @@ var store = [{
         "url": "/projects/ph-customs-eda",
         "teaser": null
       },{
-        "title": "Cancelledt Culture: Predicting Grab Taxi Booking Status",
+        "title": "Cancel Culture: Predicting Grab Taxi Booking Status",
         "excerpt":"This is my final project for our Machine Learning class. We were tasked to create a machine learning model using any dataset of our choice. Motivation Now that most of us are working from home, one thing we surely don’t miss is commuting. Prior to the pandemic, most of us...","categories": ["projects"],
         "tags": ["Grab taxi","machine learning","classification","light gbm","python"],
         "url": "/projects/ph-grab-ml",
+        "teaser": null
+      },{
+        "title": "Exploring the Accessibility of COVID-19 Referral Hospitals in Metro Manila",
+        "excerpt":"This is a combination of my final project for Network Science with Sasha Garcia and Introduction to Geospatial Analysis with Vee Rivera. Executive Summary The COVID-19 pandemic emphasized the Philippines’ vulnerable healthcare system - especially for the COVID-19 referral hospitals. With the government’s commitment to democratize healthcare in the country,...","categories": ["projects"],
+        "tags": ["COVID-19","geospatial analysis","network science"],
+        "url": "/projects/covid19-hospitals",
         "teaser": null
       }]
