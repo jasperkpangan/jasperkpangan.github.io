@@ -5,12 +5,11 @@ permalink: /about/
 layout: archive
 author_profile: true
 ---
-Hi! Thank you for visiting my website. I created this to share and showcase my projects, interests, and passion. If you are curious about any of the projects I shared, if you want to collaborate, or if you simply want to connect, feel free to e-mail me at <jasper.pangan@yahoo.com>. 
+Hi! Thank you for visiting my website. I created this to share and showcase my projects, interests, and passion. If you are curious about any of the projects I shared, if you want to collaborate, or if you simply want to connect, feel free to e-mail me at <jasperkpangan@gmail.com>. 
 
 I am still building up this site so if you see any corrections or errors, please do e-mail me. Also, here's a line-up of other projects I have yet to upload:
 - exploratory data analysis of restaurants in Makati City using data mining and wranling techniques,
 - analyzing and clustering US 2020 election tweets using natural language processing and Mini-batch $k$-Means,
-- exploratory data analysis of Covid-19 Referral Hospitals in NCR using Network Science and geospatial techniques,
 and many more, so stay tuned! 😊
 
 
