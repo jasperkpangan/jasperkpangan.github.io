@@ -20,8 +20,7 @@ As such, we aim to assess the accessibility of the COVID-19 referral hospitals. 
 
 As a result, we were able to identify unserved barangays which are not within a certain walking distance from a referral hospital. We were also able to calculate for node redundancy using the bipartite network and able to identify less redundant hospitals that may need additional support. Additionaly, our simulation provided metrics that would assist in assessing the needs of these facilities. Lastly, we are able to determine the optimal sites to establish new healthcare facilities to increase the coverage in Metro Manila.
 
-<iframe src="\assets\images\project\ns-gsa-hospitals\isochrone_map_5.html" width="100%" height="500px" style="border:none;"></iframe>
-<p style="font-size:12px;font-style:default;"><b>Figure 1. Coverage Map of Hospitals (COVID-19 referral hospitals) in Metro Manila.</b><br> Isochrone maps are generated per facility per trip time (5-minute, 15-minute, 30-minute, 45-minute, 60-minute)</p>
+<iframe src="\assets\images\project\ns-gsa-hospitals\isochrone_map_5.html" width="100%" height="400px" style="border:none;"></iframe><p style="font-size:12px;font-style:default;"><b>Figure 1. Coverage Map of Hospitals (COVID-19 referral hospitals) in Metro Manila.</b><br> Isochrone maps are generated per facility per trip time (5-minute, 15-minute, 30-minute, 45-minute, 60-minute)</p>
 
 ## Data 
 __1. Global Administrative Area Database (GADM)__
@@ -235,12 +234,12 @@ Intuitively, as the trip time increases, the number of connected hospitals and b
 </table>
 
 Another important aspect of the hospital-barangay bipartite network is the ability to calculate for node redundancies. In essence, nodes with high redundancy have less impact to the overall network in the event that it is removed from the network. On the other hand, nodes that have a low redundancy bring more impact to the network if it is removed. Focusing on the $30$-minute bipartite network, we see that there are multiple nodes that have a low node redundancy. It is important to identify these as a starting point for resource allocation.
-<iframe src="\assets\images\project\ns-gsa-hospitals\hospital_network_redundancy.html" width="100%" height="440px" style="border:none;"></iframe><p style="font-size:12px;font-style:default;"><b>Figure 13. Node Redundancy.</b><br>The identification of less redundant nodes help highlight which nodes have high impact to the network when removed.</p>
+<iframe src="\assets\images\project\ns-gsa-hospitals\hospital_network_redundancy.html" width="100%" height="430px" style="border:none;"></iframe><p style="font-size:12px;font-style:default;"><b>Figure 13. Node Redundancy.</b><br>The identification of less redundant nodes help highlight which nodes have high impact to the network when removed.</p>
 
 ### Capacity Simulation
 Simulating the capacity of the referral hospitals given the assumptions stated in Table 4 has allowed us to capture metrics such as number of unserved cases per day and the number of hospitals at full capacity. Aside from this, we can also identify which hospitals have the most number of days at full capacity. We believe that
 these metrics will help asses the need to provide extra healthcare facilities in order to avoid overloading the hospitals, thus being able to accommodate all COVID-19 patients at any given time.
-<iframe src="\assets\images\project\ns-gsa-hospitals\simulation_results.html" width="100%" height="440px" style="border:none;"></iframe><p style="font-size:12px;font-style:default;"><b>Figure 14. 30-Day Capacity Simulation of the Hospitals.</b><br>The simulation shows which hospitals are within capacity (green nodes) and which reached full capacity (red nodes).</p>
+<iframe src="\assets\images\project\ns-gsa-hospitals\simulation_results.html" width="100%" height="430px" style="border:none;"></iframe><p style="font-size:12px;font-style:default;"><b>Figure 14. 30-Day Capacity Simulation of the Hospitals.</b><br>The simulation shows which hospitals are within capacity (green nodes) and which reached full capacity (red nodes).</p>
 
 Based on the simulation, the number of unserved cases have an increasing trend since Day 1. However, Figure 15 shows that there are also evident peaks that reflect surges in COVID-19 cases. Through this simulation, hospitals will be able to anticipate peaks or surge of cases so that they can better prepare and manage resources.
 <iframe src="\assets\images\project\ns-gsa-hospitals\unserved-cases.png" width="100%" height="300px" style="border:none;"></iframe><p style="font-size:12px;font-style:default;"><b>Figure 15. Number of Unserved Cases per Day.</b><br>Using the number of unserved cases per day as a metric will help anticipate peaks or surges to better manage resources.</p>
