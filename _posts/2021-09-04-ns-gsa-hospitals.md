@@ -90,18 +90,18 @@ Using the road network, we are able to visualize how accessible the referral hos
   </tr>
   <tr>
     <td style="font-size:12px">Walking Speed</td>
-    <td style="font-size:12px">4 km/hr</td>
+    <td style="font-size:12px">$4$km/hr</td>
   </tr>
   <tr>
     <td style="font-size:12px">Trip Time</td>
-    <td style="font-size:12px">5-, 15-, 30-, 45-, 60-min</td>
+    <td style="font-size:12px">$5$-, $15$-, $30$-, $45$-, $60$-min</td>
   </tr>
 </table>
 
 Once the service areas are generated, we can identify barangays that are not accessible per service area. To perform this, isochrone maps are generated to show areas accessible from a point within the trip times identified in Table 1. To generate isochrone maps, a combination of Network Science and Geospatial Analysis techniques were implemented. Using the extracted road network of Metro Manila, we implemented the algorithm below, which is based on a publicly available example of the usage of [OSMNx](https://github.com/gboeing/osmnx-examples/blob/v0.13.0/notebooks/13-isolines-isochrones.ipynb).
 
 <div style="display: flex; justify-content: center;">
-    <img src="\assets\images\project\ns-gsa-hospitals\algorithm.jpg" width="60%">
+    <img src="\assets\images\project\ns-gsa-hospitals\algorithm.jpg" width="55%">
 </div>
 
 A total of $795$ isochrone maps were generated per facility per threshold. Figure 9 shows the results for each trip time. Intuitively, a longer trip time will translate to a larger service area.
