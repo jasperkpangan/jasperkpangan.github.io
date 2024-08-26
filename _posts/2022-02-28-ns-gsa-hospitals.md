@@ -1,7 +1,7 @@
 ---
 classes: wide
 title: "Exploring the Accessibility of COVID-19 Referral Hospitals in Metro Manila"
-date: 2024-08-26
+date: 2022-02-28
 last_modified_at: 2024-08-26
 permalink: /projects/covid19-hospitals
 tags: [COVID-19, geospatial analysis, network science]
