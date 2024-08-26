@@ -1,7 +1,7 @@
 ---
 classes: wide
 title: "Cancel Culture: Predicting Grab Taxi Booking Status"
-date: 2022-09-16
+date: 2021-09-16
 last_modified_at: 2021-09-16
 permalink: /projects/ph-grab-ml
 tags: [Grab taxi, machine learning, classification, light gbm, python]
