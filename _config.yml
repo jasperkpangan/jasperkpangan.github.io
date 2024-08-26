@@ -128,7 +128,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jasperpangan/"
     - label: "Tableau"
-      icon: "fa-solid fa-briefcase"
+      icon: "fas fa-solid fa-briefcase"
       url: "https://public.tableau.com/app/profile/jasper.kristian.pangan/vizzes"
 
 # Site Footer
@@ -150,7 +150,7 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jasperpangan/"
     - label: "Tableau"
-      icon: "fa-solid fa-briefcase"
+      icon: "fas fa-solid fa-briefcase"
       url: "https://public.tableau.com/app/profile/jasper.kristian.pangan/vizzes"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
