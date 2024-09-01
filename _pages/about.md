@@ -5,13 +5,7 @@ permalink: /about/
 layout: archive
 author_profile: true
 ---
----
-classes: wide
-title: "about me"
-permalink: /about/
-layout: archive
-author_profile: true
----
+
 Hello and welcome!
 
 I’m Jasper, a data scientist originally from the Philippines, currently based in Estonia. I have a Master’s degree in Data Science and am deeply passionate about uncovering meaningful insights through data visualization, particularly in geospatial data and machine learning.
