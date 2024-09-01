@@ -8,7 +8,6 @@ tags: [Filipino emigration, exploratory data analysis, tableau, python]
 excerpt: "Analyzing the trend of Filipino emigration from 1988 to 2018."
 category: "projects"
 mathjax: "true"
-show_date: "true"
 ---
 *This is our final project for our Data Visualization and Storytelling class. This was created alongside [Jelo Delariarte](https://www.linkedin.com/in/jelodelariarte/), [Sasha Garcia](https://www.linkedin.com/in/sharmaineselenegarcia/), [Leo Lorenzo](https://www.linkedin.com/in/leolorenzoii/), and [Hezi Rance](https://www.linkedin.com/in/hezirance/). We were tasked to present a data visualization using any dataset of our choice.*
 

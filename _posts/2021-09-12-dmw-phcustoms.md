@@ -8,7 +8,6 @@ tags: [PH Customs, exploratory data analysis, python]
 excerpt: "Exploratory data analysis of Philippine Customs Data"
 category: "projects"
 mathjax: "true"
-show_date: "true"
 ---
 [![](https://img.shields.io/badge/Jupyter-View_Notebook-F37626?logo=jupyter)](https://github.com/jasperkpangan/dmw-eda-ph-customs/blob/main/Technical%20Report.ipynb)       [![](https://img.shields.io/badge/Github-View_HTML-181717?logo=github)](https://github.com/jasperkpangan/dmw-eda-ph-customs/blob/main/Technical%20Report.html)
 

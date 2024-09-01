@@ -7,8 +7,6 @@ permalink: /projects/covid19-hospitals
 tags: [COVID-19, geospatial analysis, network science]
 excerpt: "Exploring COVID-19 Referral Hospitals in Metro Manila using Network Science and Geospatial Analysis"
 category: "projects"
-mathjax: "true"
-show_date: "true"
 ---
 *This is a combination of my final project for Network Science with Sasha Garcia and Introduction to Geospatial Analysis with Vee Rivera.*
 
