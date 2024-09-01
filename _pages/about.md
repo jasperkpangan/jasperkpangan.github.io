@@ -5,13 +5,27 @@ permalink: /about/
 layout: archive
 author_profile: true
 ---
-Hi! Thank you for visiting my website. I created this to share and showcase my projects, interests, and passion. If you are curious about any of the projects I shared, if you want to collaborate, or if you simply want to connect, feel free to e-mail me at <jasperkpangan@gmail.com>. 
+---
+classes: wide
+title: "about me"
+permalink: /about/
+layout: archive
+author_profile: true
+---
+Hello and welcome!
 
-I am still building up this site so if you see any corrections or errors, please do e-mail me. Also, here's a line-up of other projects I have yet to upload:
-- exploratory data analysis of restaurants in Makati City using data mining and wranling techniques,
-- analyzing and clustering US 2020 election tweets using natural language processing and Mini-batch $k$-Means,
-and many more, so stay tuned! 😊
+I’m Jasper, a data scientist originally from the Philippines, currently based in Estonia. I have a Master’s degree in Data Science and am deeply passionate about uncovering meaningful insights through data visualization, particularly in geospatial data and machine learning.
 
+This website is a space where I showcase my projects, interests, and the work that excites me. I’m constantly exploring new ways to analyze and present data, and I’m eager to share these findings with you. If you’re curious about any of the projects I’ve shared, interested in collaborating, or just want to connect, feel free to reach out to me at <jasperkpangan@gmail.com>.
+
+I’m still in the process of building up this site, so if you spot any errors or have any suggestions, I’d love to hear from you. I’m also working on uploading several new projects, including:
+
+- Exploratory Data Analysis of Restaurants in Makati City: Using data mining and wrangling techniques.
+- Analyzing and Clustering US 2020 Election Tweets: Leveraging natural language processing and Mini-batch K-Means.
+
+Stay tuned for these and more!
+
+When I’m not diving into data, I enjoy traveling and playing computer games. Thanks for stopping by, and I hope you find something here that sparks your interest! 😊
 
 
  

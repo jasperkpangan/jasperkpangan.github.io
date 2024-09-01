@@ -2,7 +2,7 @@
 classes: wide
 layout: posts
 permalink: /projects/
-title: "Projects"
+title: "projects"
 author_profile: true
 # header:
 #   image: "/images/projects.png"
